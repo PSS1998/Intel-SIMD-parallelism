@@ -29,7 +29,7 @@ int main (void){
 
 	float sum_float = 0;
 	for (long i = 0; i < SIZE; i++) {
-		sum_float += pow(v1[i] - v2[i], 2);
+		sum_float += (v1[i] - v2[i])*(v1[i] - v2[i]);
 	}
 	float result = sqrt(sum_float);
 
